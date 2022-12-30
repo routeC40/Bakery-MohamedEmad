@@ -1,0 +1,291 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Alegreya", serif;
+}
+ul {
+   list-style: none;
+}
+
+.home {
+   /* background-color: aqua; */
+   text-align: center;
+   height: 110vh;
+   background-size: 100% 100%;
+   /* color: #fff; */
+   background-image: url(images/drew-coffman-1872.jpg);
+   overflow: hidden;
+}
+.home .header {
+   padding: 1%;
+}
+
+.home .header .icon {
+   width: 150px;
+   float: left;
+}
+.home .header .icon img {
+   width: 100%;
+   padding-top: 1%;
+}
+.home .header .menu {
+   float: right;
+}
+.home .header .menu li {
+   padding: 0 10px;
+   display: inline-block;
+}
+.home .header .menu a span {
+   color: #fff;
+   font-size: 18px;
+}
+/* ####### */
+.content {
+   padding-top: 10%;
+   color: rgba(255, 255, 255, 0.92);
+   /* background-color: blue; */
+   margin: auto;
+   width: 50%;
+}
+.content .p1 {
+   margin-bottom: 5px;
+   font-size: 22px;
+}
+.content h1 {
+   margin-bottom: 18px;
+   font-size: 65px;
+}
+.content .p2 {
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+.content button {
+   color: rgba(255, 255, 255, 0.92);
+   font-size: 20px;
+   padding: 15px 28px;
+   margin: 20px 5px;
+}
+.content .learn {
+   border: 2px solid transparent;
+   background-color: #8e7754;
+}
+.content .Contact {
+   background-color: transparent;
+   border: 2px solid rgba(255, 255, 255, 0.92);
+}
+/* ########### */
+
+.whoWe {
+   /* background-color: aqua; */
+   padding: 5%;
+}
+.imgWho {
+   width: 40%;
+   padding: 0 5%;
+   display: inline-block;
+   /* background-color: rgb(6, 27, 20); */
+}
+.whoWe .imgWho img {
+   width: 560px;
+}
+
+.txtWho {
+   width: 41%;
+   padding-left: 10px;
+   display: inline-block;
+   /* background-color: rgb(153, 160, 95); */
+}
+.whoWe .txtWho h2 {
+   color: #303030;
+   font-size: 32px;
+   padding-bottom: 5%;
+   text-align: center;
+}
+.txtWho p {
+   display: inline-block;
+   color: #8e7754;
+   font-size: 17px;
+   /* background-color: darkmagenta; */
+   padding-bottom: 5%;
+   text-align: center;
+}
+.txtWho li p {
+   margin-bottom: 5%;
+   padding-bottom: 0%;
+}
+.whoWe .txtWho img {
+   display: inline-block;
+   width: 45px;
+   height: 45px;
+}
+
+/* #################### */
+
+.ourLocation {
+   background-color: #f8f8f8;
+   padding: 5%;
+}
+.ourLocation .txt {
+   display: inline-block;
+   width: 45%;
+   /* background-color: aqua; */
+   margin-top: 0;
+}
+.ourLocation .txt h2 {
+   color: #303030;
+   font-size: 32px;
+   padding-bottom: 5%;
+   text-align: center;
+   font-weight: bold;
+}
+.ourLocation .txt p {
+   display: inline-block;
+   color: #686868;
+   text-align: center;
+   font-size: 17px;
+   /* background-color: darkmagenta; */
+   padding-bottom: 5%;
+}
+.ourLocation .img {
+   display: inline-block;
+   width: 45%;
+   /* background-color: burlywood; */
+   padding-left: 5%;
+}
+.ourLocation .img img {
+   width: 560px;
+}
+/* #################### */
+
+.baking {
+   text-align: center;
+   padding: 5%;
+}
+.baking .head h2 {
+   color: #303030;
+   padding-bottom: 2%;
+   font-weight: bold;
+}
+.baking .head p {
+   color: #888;
+   font-size: 17px;
+}
+.baking .items {
+   overflow: hidden;
+   padding: 3%;
+}
+.baking .item {
+   margin: 2%;
+   width: 29%;
+   float: left;
+}
+.baking .item img {
+   width: 100%;
+}
+
+.baking .item h4 {
+   color: #303030;
+   padding: 5%;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.baking .item p {
+   font-size: 20px;
+   color: #686868;
+}
+/* ############## */
+.information {
+   background-color: #f8f8f8;
+   overflow: hidden;
+   color: #686868;
+   font-size: 18px;
+}
+.information .item .txt h2 {
+   color: #303030;
+   text-align: center;
+   font-weight: bold;
+}
+.information .item {
+   color: #686868;
+   width: 35%;
+   float: left;
+   padding: 7%;
+}
+.information .txt .p1 {
+   padding: 3% 0;
+   text-align: center;
+}
+.information .txt .p2 {
+   padding: 3% 0;
+}
+.information li {
+   overflow: hidden;
+   padding: 2% 0;
+}
+.information li img {
+   float: left;
+   width: 45px;
+   height: 45px;
+}
+.information li p {
+   float: left;
+}
+/* ############## */
+.topFooter {
+   background-color: #403d38;
+   overflow: hidden;
+}
+.topFooter .item {
+   float: left;
+   width: 20%;
+   padding: 2%;
+}
+.topFooter .item h4 {
+   color: #fff;
+   font-size: 20px;
+   font-weight: 300;
+}
+.topFooter .item p {
+   font-size: 18px;
+   color: #969696;
+   padding: 4% 0;
+}
+.topFooter .item span {
+   font-size: 18px;
+   color: #969696;
+}
+.topFooter .item li {
+   font-size: 27px;
+   padding: 2%;
+   border-bottom: #303030 solid 1px;
+}
+a {
+   text-decoration: none;
+}
+/* ################## */
+
+.downFooter {
+   background-color: #353330;
+   text-align: center;
+   color: #969696;
+   overflow: hidden;
+   padding: 3%;
+}
+.downFooter .img {
+   width: 20%;
+
+   margin: 2% 44%;
+}
+.downFooter .img ul {
+   margin: auto;
+   overflow: hidden;
+}
+.downFooter .img li {
+   float: left;
+}
+.downFooter .img li img {
+   padding-top: 1%;
+   width: 45px;
+   height: 45px;
+}
